@@ -1,0 +1,136 @@
+.main-container{
+    min-height: 100vh;
+}
+.central-form{
+    max-width: 1100px;
+    padding: 10px;
+    display: flex;
+    border-radius: 12px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1f2235;
+}
+.central-form h2{
+    color: white;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+}
+.back-form{
+    max-width: 380px;
+    margin: 0 auto;
+}
+.back-form .img-back{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.img-back h4{
+    color: white;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.5;
+    transition: all 0.1s linear;
+}
+.img-back h4:hover{
+    opacity: 1;
+}
+.back-form .img-back img{
+    width: 100%;
+    opacity: 0.5;
+}
+.central-form form{
+    display: flex;
+    width: auto;
+    color: #111;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -52px;
+    background-color: white;
+    border-radius: 12px;
+}
+.central-form form p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--dark-orange);
+    letter-spacing: 0.4rem;
+    font-family: 'Poppins Bold';
+}
+.central-form form label{
+    margin: 0 0 5px 0;
+    color: #111;
+    letter-spacing: 0.2rem;
+}
+.central-form form input, .central-form form textarea{
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0);
+    outline: none;
+    background-color: rgba(230,230,230,0.6);
+    padding: 0.5rem 1rem;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.central-form form textarea:focus, 
+.central-form form input:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: white;
+}
+.central-form form button{
+    margin-top: 15px;
+    padding: 5px;
+    outline: none;
+    width: 160px;
+    border: 2px solid var(--dark-orange);
+    font-size: 12px;
+    border-radius: 19px;
+    background-color: #1f2235;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.central-form form button:hover{
+    background-color: #1f2235;
+    transition: all ease 1s;
+    border: 2px solid #1f2235;
+}
+.central-form form button .load{
+    width: 100%;
+}
+.central-form form button .load img{
+    width: 60px;
+    color: green;
+}
+.img-back{
+    flex: 1;
+    margin-right: 20px;
+    align-self: center;
+}
+.central-form form{
+    flex: 0.9;
+}
+.col i{
+    padding: 7px;
+    color: white;
+}
+.col i:hover{
+    transform: scale(1.5);
+}
+@media screen and (min-width: 940px) {
+    .back-form{
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .img-back{
+        flex: 1;
+        align-self: center;
+        margin-right: 20px;
+    }
+    .central-form form{
+        flex: 0.9;
+    }
+}
