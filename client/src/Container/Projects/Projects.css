@@ -1,0 +1,122 @@
+.projects-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: fit-content;
+    margin: 120px 0;
+}
+.projects-card{
+    display: flex;
+    width: 1400px;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 8px;
+}
+.project{
+    position: relative;
+    padding: 8px;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    flex-direction: column;
+    display: flex;
+    flex: 0 0 32%;
+    max-width: 32%;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+    top: 0;
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.project:hover{
+    transform: scale(1.01);
+    top: -16px;
+}
+.project-img-container{
+    width: 100%;
+    height: 50%;
+
+}
+.project-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.project-subtitle{
+    font-family: 'Poppins SemiBold';
+    color: #666;
+    font-size: 18px;
+}
+.project-control{
+    display: flex;
+    justify-content: center;
+}
+.project-control-a, .project-control-a:hover{
+    text-decoration:none;
+    color: white;
+}
+
+.project-control-github-btn{
+    background-color: #9D6D42;
+    color: white;
+    margin-right: 8px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+}
+.project-control-view-btn{
+    background-color: #EFDDCE;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+
+}
+.project-control-view-btn a{
+    color: black;
+}
+
+@media only screen and(max-width: 1110px){
+    .projects-card{
+        width: 880px;
+    }
+    .projects-bullets-details{
+        padding: 0 0 0 70px;
+    }
+}
+@media only screen and (max-width: 1023px){
+    .projects-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bullets{
+        width: 90%;
+    }
+    .projects-card{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        align-items: center;
+        width: 90%;
+    }
+    .projects-bullets-details{
+        height: 360px;
+        width: fit-content;
+        padding: 0;
+    }
+    .projects-bullets{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .selected-bullet{
+        width: 100%;
+    }
+}

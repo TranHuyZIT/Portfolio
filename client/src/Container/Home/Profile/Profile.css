@@ -29,7 +29,7 @@
     color: var(--white);
 }
 .highlighted-text{
-    color: var(--dark-orange);
+    color: #9D6D42;
 }
 .profile-details-role-tagline{
     font-size: 19px;

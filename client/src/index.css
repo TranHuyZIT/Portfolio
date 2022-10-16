@@ -96,10 +96,10 @@ body ::-webkit-scrollbar-thumb {
 }
 
 .primary-btn {
-  color: var(--white);
+  color: black;
   border: 2px solid linen;
   font-size: 12px;
-  background-color: #1f2235;
+  background-color: #efddce;
 }
 /* @media only screen and (max-width: 414px) {
   .primary-btn {
@@ -108,16 +108,15 @@ body ::-webkit-scrollbar-thumb {
 } */
 
 .primary-btn:hover {
-  color: aliceblue;
-  border: 2px solid #ff5823;
-  background-color: #1f2235;
+  color: #9D6D42;
+  border: 2px solid #9D6D42;
 }
 
 .highlighted-btn {
   color: var(--white);
 
   font-size: 12px;
-  background-color: #ff5823;
+  background-color: #9D6D42;
 }
 @media only screen and (max-width: 568px) {
   .highlighted-btn {

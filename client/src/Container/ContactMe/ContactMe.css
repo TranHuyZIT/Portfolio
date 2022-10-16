@@ -9,7 +9,7 @@
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;
-    background-color: #1f2235;
+    background-color: #9D6D42;
 }
 .central-form h2{
     color: white;
@@ -18,11 +18,8 @@
 }
 .back-form{
     max-width: 380px;
+    width: 60%;
     margin: 0 auto;
-}
-.back-form .img-back{
-    width: 100%;
-    margin-bottom: 20px;
 }
 .img-back h4{
     color: white;
@@ -40,8 +37,8 @@
     opacity: 0.5;
 }
 .central-form form{
+    width: 50%;
     display: flex;
-    width: auto;
     color: #111;
     padding: 15px;
     justify-content: center;
@@ -85,15 +82,16 @@
     border: 2px solid var(--dark-orange);
     font-size: 12px;
     border-radius: 19px;
-    background-color: #1f2235;
+    background-color: #9D6D42;
     color: white;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
 }
 .central-form form button:hover{
-    background-color: #1f2235;
+    background-color: #9D6D42;
     transition: all ease 1s;
-    border: 2px solid #1f2235;
+    border: 2px solid #9D6D42;
 }
 .central-form form button .load{
     width: 100%;
