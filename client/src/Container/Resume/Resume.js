@@ -49,9 +49,9 @@ function Resume(props) {
   const programmingSkills = [
     { skill: "JavaScript", ratingPercentage: 85 },
     { skill: "ReactJS", ratingPercentage: 85 },
-    { skill: "NodeJS", ratingPercentage: 85 },
-    { skill: "Python", ratingPercentage: 80 },
-    { skill: "Java", ratingPercentage: 75 },
+    { skill: "NodeJS", ratingPercentage: 80 },
+    { skill: "Python", ratingPercentage: 70 },
+    { skill: "Java", ratingPercentage: 55 },
   ];
 
   // const projectDetails = [
@@ -157,18 +157,9 @@ function Resume(props) {
     // </div>,
 
     <div className="resume-screen-container" key="interests">
-      <ResumeHeading
-        heading="Play Guitar"
-        description="Playing Guitar is a kind of passion that i can't get tired of."
-      />
-      <ResumeHeading
-        heading="Listen to Music"
-        description="Listening to music is a kind of passion that i can't get tired of."
-      />
-      <ResumeHeading
-        heading="Coffee"
-        description="Coffee is a kind of passion that i can't get tired of."
-      />
+      <ResumeHeading heading="Play Guitar" description="" />
+      <ResumeHeading heading="Listen to Music" description="" />
+      <ResumeHeading heading="Coffee" description="" />
     </div>,
   ];
 

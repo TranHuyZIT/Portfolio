@@ -70,6 +70,8 @@ function Projects(props) {
         "A system to manage book data and orders for a small library. From this project, i learned a lot about designing database, user authentication with JWT and redux thunk middleware.",
       subHeading: "Technologies Used: ReactJS, MongoDB, NodeJS",
       img: require("../../assets/Projects/1.png"),
+      github: "https://github.com/TranHuy2k2/Library_Client",
+      view: "https://giahui-library.vercel.app/",
     },
   ];
 
