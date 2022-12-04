@@ -55,6 +55,7 @@
 }
 .project-control{
     display: flex;
+    width: 100%;
     justify-content: center;
 }
 .project-control-a, .project-control-a:hover{
