@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../../grid.css";
 import "./Projects.css";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
@@ -69,7 +70,7 @@ function Projects(props) {
       description:
         "A system to manage book data and orders for a small library. From this project, i learned a lot about designing database, user authentication with JWT and redux thunk middleware.",
       subHeading: "Technologies Used: ReactJS, MongoDB, NodeJS",
-      img: require("../../assets/Projects/1.png"),
+      img: require("../../assets/Projects/library.jpg"),
       github: "https://github.com/TranHuy2k2/Library_Client",
       view: "https://giahui-library.vercel.app/",
     },
@@ -80,20 +81,22 @@ function Projects(props) {
       className="projects-container screen-container fade-in"
       id={props.id || ""}
     >
-      <div className="projects-content">
+      <div className="project-content grid wide">
         <ScreenHeading
           title="Featured Projects"
           subHeading="My Formal Bio Details"
         />
-        <div className="projects-card">
+        <div className="projects-card row">
           {projectDetails.map((detail) => (
-            <div className="project">
+            <div className="project col c-12 m-6 l-4">
               <div className="project-img-container">
                 <img className="project-img" src={detail.img} />
               </div>
-              <h1 className="project-title">{detail.title}</h1>
-              <h2 className="project-subtitle">{detail.subHeading}</h2>
-              <p className="project-description">{detail.description}</p>
+              <div className="project-detail">
+                <h1 className="project-title">{detail.title}</h1>
+                <h2 className="project-subtitle">{detail.subHeading}</h2>
+                <p className="project-description">{detail.description}</p>
+              </div>
               <div className="project-control">
                 <button className="project-control-github-btn">
                   <a

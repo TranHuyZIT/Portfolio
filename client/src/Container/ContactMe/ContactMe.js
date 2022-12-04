@@ -71,15 +71,17 @@ function ContactMe(props) {
             {""}
             <Typical loop={Infinity} steps={["Get In Touch!", 1000]}></Typical>
           </h2>
-          <a href="https://www.facebook.com/tony.huy.9083">
-            <i className="fa fa-facebook-square"></i>
-          </a>
-          <a href="https://www.instagram.com/tgiahui/">
-            <i className="fa fa-instagram"></i>
-          </a>
-          <a href="https://www.youtube.com/channel/UCNiZqjuAdvTdDTkvg1lQgnA">
-            <i className="fa fa-youtube-square"></i>
-          </a>
+          <div className="links">
+            <a href="https://www.facebook.com/tony.huy.9083">
+              <i className="fa fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com/tgiahui/">
+              <i className="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCNiZqjuAdvTdDTkvg1lQgnA">
+              <i className="fa fa-youtube-square"></i>
+            </a>
+          </div>
         </div>
         <div className="back-form">
           <form onSubmit={submitForm}>

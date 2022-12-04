@@ -17,8 +17,8 @@ function AboutMe(props) {
       bullets: [
         "Web Development",
         "Interactive Front End with ReactJS",
-        "Backend Development with NodeJS, Django",
-        "React and React Native",
+        "Backend Development with NodeJS",
+        "React",
         "Building REST API",
         "Managing database: MySQL, MongoDB",
       ],
@@ -58,7 +58,7 @@ function AboutMe(props) {
               >
                 Hire Me
               </button>
-              <a href="ehizcv.pdf" download="ehizcv.pdf">
+              <a href="MyCV.pdf" download="MyCV.pdf">
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>

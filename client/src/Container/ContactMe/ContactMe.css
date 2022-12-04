@@ -108,12 +108,20 @@
 .central-form form{
     flex: 0.9;
 }
+.col{
+    display: flex;
+    align-items: flex-start;
+}
 .col i{
     padding: 7px;
     color: white;
 }
 .col i:hover{
     transform: scale(1.5);
+}
+.col .link{
+    
+    margin-bottom: 0 20px 0 5px;
 }
 @media screen and (min-width: 940px) {
     .back-form{
@@ -130,5 +138,17 @@
     }
     .central-form form{
         flex: 0.9;
+    }
+}
+@media screen and (max-width: 940px) {
+    .back-form{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .central-form form{
+        width: 100%;
     }
 }
