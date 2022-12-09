@@ -51,7 +51,7 @@ function Projects(props) {
         "A personal website to showcase all my details and projects.",
       subHeading: "Technologies Used: ReactJS, Bootstrap",
       img: require("../../assets/Projects/portfolio.jpg"),
-      github: "",
+      github: "https://github.com/TranHuy2k2/Portfolio",
       view: "/",
     },
     {
@@ -62,7 +62,7 @@ function Projects(props) {
       subHeading: "Technologies Used: ReactJS, NodeJS",
       img: require("../../assets/Projects/timetable.jpg"),
       github: "https://github.com/TranHuy2k2/CTU_TimeTable",
-      view: "https://giahui-ctu-timetable.herokuapp.com/",
+      view: "https://giahui-ctu-timetable.vercel.app/",
     },
     {
       title: "Library Management System",

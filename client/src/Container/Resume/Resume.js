@@ -54,43 +54,6 @@ function Resume(props) {
     { skill: "Java", ratingPercentage: 55 },
   ];
 
-  // const projectDetails = [
-  //   {
-  //     title: "An todo App",
-  //     duration: { fromDate: "2022", toDate: "2022" },
-  //     description:
-  //       "A todo app with many features. This is my first project using ReactJS combine with Redux-tookit, from building this project, i have improved a lot with my front-end skills and especially using Redux inside an React app.",
-  //     subHeading: "Technologies Used: ReactJS, Redux",
-  //   },
-  //   {
-  //     title: "Personal Portfolio Website",
-  //     duration: { fromDate: "2022", toDate: "2022" },
-  //     description:
-  //       "A personal website to showcase all my details and projects.",
-  //     subHeading: "Technologies Used: ReactJS, Bootstrap",
-  //   },
-  //   {
-  //     title: "CTU Timetable",
-  //     duration: { fromDate: "2022", toDate: "2022" },
-  //     description:
-  //       "A web-app i made in order to help students in my university to manage their timetable more easily. By scrapping the homepage of my university, i've build the API needed and the UI for the users.",
-  //     subHeading: "Technologies Used: ReactJS, NodeJS, MongoDB",
-  //   },
-  //   {
-  //     title: "Authentication with NodeJS JWT and ReactJS",
-  //     duration: { fromDate: "2022", toDate: "2022" },
-  //     description:
-  //       "A personal website to showcase all my details and projects.",
-  //     subHeading: "Technologies Used: ReactJS, Bootstrap",
-  //   },
-  //   {
-  //     title: "Library Management System",
-  //     duration: { fromDate: "2022", toDate: "2022" },
-  //     description:
-  //       "A system to manage book data and orders for a small library. From this project, i learned a lot about designing database, user authentication and redux.",
-  //     subHeading: "Technologies Used: ReactJS, MongoDB, NodeJS",
-  //   },
-  // ];
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
@@ -143,18 +106,6 @@ function Resume(props) {
         </div>
       ))}
     </div>,
-    // <div className="resume-screen-container" key="projects">
-    //   {projectDetails.map((projectDetail, index) => (
-    //     <ResumeHeading
-    //       key={index}
-    //       heading={projectDetail.title}
-    //       subHeading={projectDetail.subHeading}
-    //       description={projectDetail.description}
-    //       fromDate={projectDetail.duration.fromDate}
-    //       toDate={projectDetail.duration.toDate}
-    //     />
-    //   ))}
-    // </div>,
 
     <div className="resume-screen-container" key="interests">
       <ResumeHeading heading="Play Guitar" description="" />
