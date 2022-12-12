@@ -18,8 +18,8 @@ function Profile() {
               <a href="https://www.instagram.com/tgiahui/">
                 <i className="fa fa-instagram"></i>
               </a>
-              <a href="https://www.youtube.com/channel/UCNiZqjuAdvTdDTkvg1lQgnA">
-                <i className="fa fa-youtube-square"></i>
+              <a href="https://github.com/TranHuy2k2">
+                <i className="fa fa-github"></i>
               </a>
             </div>
           </div>
